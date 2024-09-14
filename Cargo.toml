@@ -2,6 +2,14 @@
 name = "copyrepo"
 version = "0.1.0"
 edition = "2021"
+authors = ["Josef Vacek"]
+description = "A tool to fetch and save the contents of a GitHub folder for ingestion into LLMs"
+license = "MIT"
+repository = "https://github.com/vacekj/copyrepo"
+documentation = "https://github.com/vacekj/copyrepo#readme"
+homepage = "https://github.com/vacekj/copyrepo"
+keywords = ["github", "folder", "fetch", "llm", "ingestion"]
+categories = ["command-line-utilities", "development-tools"]
 
 [dependencies]
 clap = { version = "4.5.17", features = ["derive"] }
